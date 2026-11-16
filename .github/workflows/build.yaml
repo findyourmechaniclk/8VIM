@@ -2,6 +2,7 @@ name: Build 8Vim
 run-name: Build 8VIM ${{inputs.target}}
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       target:
